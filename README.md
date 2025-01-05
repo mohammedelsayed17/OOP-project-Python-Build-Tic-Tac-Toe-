@@ -7,7 +7,7 @@ oop
     this project consists of four class 
 
     
-  class player:this class content of 2 atrrbuite (name,symbol) and 2 methods
+ ## class player:this class content of 2 atrrbuite (name,symbol) and 2 methods
 
   
   1- method chosse_name() ===> this method to get name from user and put it in name atrribute
@@ -16,7 +16,7 @@ oop
   2- methods choose_symbol ====> this methods to get symbol from user and put it in symbol attribute 
 
 
-class menu ===> this class content 3 methods 
+## class menu ===> this class content 3 methods 
 1-method display_start_menu()===> this method display menu to chooice  start game or quit game 
 
 
@@ -24,7 +24,7 @@ class menu ===> this class content 3 methods
 
 3- method validition_choose() ===> this method check if chooice true or false and return chooice 
 
-class board ===> this class content 1 attribute and 4 methods 
+## class board ===> this class content 1 attribute and 4 methods 
 
 attribute board ===> this attribute it is about list start index from 0 to 9
 
@@ -49,7 +49,7 @@ Returns True if the position is still numeric (not occupied by a player's symbol
 4- method restart()====> Resets the board to its initial state (numbers 1 through 9).
 Uses the same list comprehension as in the constructor to recreate the board.
 
-class game ===> in this class 3 another class composite to this class ,this class content from 4 atrributes and 8 methods 
+## class game ===> in this class 3 another class composite to this class ,this class content from 4 atrributes and 8 methods 
 
 Attributes
 
